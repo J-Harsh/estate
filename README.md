@@ -1,5 +1,7 @@
 The above react website is made as a assignment task given by reunion dated "13-10-22"
 
+There are only 3 locations, "New Delhi", "Lucknow", "Mumbai"
+
 Referce image:![Real_Estate_RENT_SELL_page](https://user-images.githubusercontent.com/56508036/195716133-a933ef18-4e16-4427-9206-ba767c354fd3.JPG)
 
 
