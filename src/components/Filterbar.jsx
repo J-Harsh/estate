@@ -43,7 +43,7 @@ const Filterbar = () => {
 
 
   return (
-    <Box sx={{ display: 'flex' ,bgcolor:"white",gap:"1.25rem",alignItems:"center", justifyContent:"center", borderRadius:"1.5rem",padding:"1rem 0rem",margin:"0.5rem 11rem" }}  >
+    <Box sx={{ display: 'flex',flexWrap:"wrap" ,bgcolor:"white",gap:"1.25rem",alignItems:"center", justifyContent:"center", borderRadius:"1.5rem",padding:"1rem 0rem",margin:"0.5rem 11rem" }}  >
         <LocationInput  reset={reset} setTempObj={setTempObj} />
         <Divider orientation="vertical" flexItem/>
         <DateInput   reset={reset} setTempObj={setTempObj} />

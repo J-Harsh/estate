@@ -10,15 +10,15 @@ const CardGrid = () => {
 
   return (
     <Box sx={{paddingY:"2.5rem"}}>
-        <Container fixed >
+        <Container maxWidth='lg' >
             <Grid  container spacing={6} justifyContent='center'  >
                 {filteredArray.length>0 ? filteredArray.map((item,index)=>{
-                    return <Grid key={index} item xs={4} >
+                    return <Grid key={index} item xs={8} md={6} lg={4}  >
                         <CardComponent data={item} />
                     </Grid>
                 }) : <NotFound/>
                 }
-                
+
                 
             </Grid>
         </Container>
